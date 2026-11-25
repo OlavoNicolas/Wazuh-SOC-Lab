@@ -21,3 +21,18 @@ Implementar um laboratório de monitoramento, detecção e investigação de eve
 1. A definir
 2. A definir
 3. A definir
+
+## Status do projeto
+
+- [x] Contratação e preparação da VPS
+- [x] Hardening inicial do Ubuntu Server
+- [x] Configuração de acesso SSH seguro
+- [x] Configuração de firewall
+- [x] Proteção contra tentativas de autenticação
+- [x] Atualizações automáticas de segurança
+- [x] Criação de snapshot inicial
+- [ ] Instalação do Wazuh All-in-One
+- [ ] Integração do Windows 11
+- [ ] Configuração do Sysmon
+- [ ] Investigações de segurança
+- [ ] Criação e validação de regras
