@@ -22,17 +22,25 @@ Implementar um laboratório de monitoramento, detecção e investigação de eve
 2. A definir
 3. A definir
 
-## Status do projeto
 
-- [x] Contratação e preparação da VPS
-- [x] Hardening inicial do Ubuntu Server
-- [x] Configuração de acesso SSH seguro
-- [x] Configuração de firewall
-- [x] Proteção contra tentativas de autenticação
-- [x] Atualizações automáticas de segurança
-- [x] Criação de snapshot inicial
-- [ ] Instalação do Wazuh All-in-One
-- [ ] Integração do Windows 11
-- [ ] Configuração do Sysmon
-- [ ] Investigações de segurança
-- [ ] Criação e validação de regras
+## Progresso do projeto
+
+### Infraestrutura e preparação
+- [x] Provisionamento da VPS Ubuntu Server
+- [x] Hardening inicial do servidor
+- [x] Configuração de firewall e acesso SSH
+- [x] Documentação do hardening
+- [x] Documentação da arquitetura planejada
+
+### Implantação do Wazuh
+- [x] Instalação All-in-One do Wazuh 4.14
+- [x] Inicialização dos serviços principais
+- [x] Acesso ao Wazuh Dashboard pelo Windows
+- [x] Verificação inicial de recursos e serviços
+
+### Monitoramento de endpoints
+- [ ] Instalação do Wazuh Agent no Windows 11
+- [ ] Integração do Sysmon
+- [ ] Coleta e análise de eventos
+- [ ] Investigações documentadas
+- [ ] Criação e validação de regra de detecção
